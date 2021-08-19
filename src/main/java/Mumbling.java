@@ -24,15 +24,12 @@ public class Mumbling {
             for (int j = 0; j <= i; j++) {
                 if (j==0){
                 result += String.valueOf(charArray[i]).toUpperCase();
-
                 }else {
-
                 result += String.valueOf(charArray[i]).toLowerCase();
                 }
             }
             if (i<charArray.length-1)
                 result += String.valueOf('-');
-
         }
         return result;
         // your code
